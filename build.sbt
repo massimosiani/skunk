@@ -9,13 +9,13 @@ ThisBuild / scalaVersion       := `scala-2.13`
 ThisBuild / crossScalaVersions :=
   Seq(`scala-2.12`, `scala-2.13`, `scala-3.0`)
 
-ThisBuild / organization := "org.tpolecat"
+ThisBuild / organization := "io.github.massimosiani"
 ThisBuild / licenses     := Seq(License.MIT)
 ThisBuild / developers   := List(
   Developer("tpolecat", "Rob Norris", "rob_norris@mac.com", url("http://www.tpolecat.org"))
 )
 
-ThisBuild / tlCiReleaseBranches := Seq("main") // publish snapshits on `main`
+ThisBuild / tlCiReleaseBranches := Seq("main") // publish snapshots on `main`
 ThisBuild / tlSonatypeUseLegacyHost := false
 ThisBuild / githubWorkflowJavaVersions := Seq(JavaSpec.temurin("8"))
 
