@@ -1,4 +1,4 @@
-FROM postgres:11
+FROM postgres:12
 ENV POSTGRES_DB world
 ENV POSTGRES_USER jimmy
 ENV POSTGRES_PASSWORD banana
